@@ -1,3 +1,4 @@
+#ifndef main
 int _isupper(int c);
 char *_memset(char *s, char b, unsigned int n);
 char *_strcat(char *dest, char *src);
@@ -18,3 +19,5 @@ char *_strstr(char *haystack, char *needle);
 int _abs(int n);
 int _putchar(char c);
 char *_strncpy(char *dest, char *src, int n);
+#define main
+#endif
